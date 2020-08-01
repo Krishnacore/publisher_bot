@@ -7,7 +7,7 @@ import vk_api
 #FACEBOOK
 page_access_token = "YOR FACEBOOK ACCESS TOKEN"
 graph = facebook.GraphAPI(page_access_token)
-#TRLRGRAM TOKEN
+#TELEGRAM TOKEN
 bot = Bot(token="YOR TELEGRAM BOT TOKEN")
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage = storage)
